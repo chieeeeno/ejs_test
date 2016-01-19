@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <%- include('_common/header') -%>
+  </head>
+
+  <body>
+    <h1><%= jsonData.commonTitle %></h1>
+    <p>ヘッダとフッタを include しています。</p>
+    <p><%= jsonData.content %></p>
+    <%- include('_common/footer') -%>
+    <%- include('_common/analytics') -%>
+  </body>
+
+</html>
